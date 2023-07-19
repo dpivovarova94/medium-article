@@ -1,0 +1,73 @@
+body {
+  font-family: 'Lora', serif;
+  font-weight: lighter;
+  font-size: 18px;
+  color:#494949;
+  font-weight: lighter;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.banner h1 {
+  font-size: 38px;
+}
+
+.banner p {
+  opacity: 0.8;
+  font-style: italic;
+  font-size: 30px;
+}
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+}
+.link-medium {
+  /* background-color: #ceeac8; */
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+
+  font-style: italic;
+  text-decoration: none;
+  color:  #636363;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+/* Media queries */
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
